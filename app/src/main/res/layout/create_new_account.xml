@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/amazon"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/border_background"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="Create Account"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="12dp"
+            android:text="Your Name"></TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/name"
+            android:layout_height="wrap_content"></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="12dp"
+            android:text="Mobile Number or email"></TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/mobile_number"
+            android:layout_height="wrap_content"></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="12dp"
+            android:text="Password"></TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+
+            android:layout_height="wrap_content"></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="12dp"
+            android:text="Re-Enter Password"></TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/re_enter_password"
+            android:inputType="textPassword"
+
+            android:layout_height="wrap_content"></EditText>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:backgroundTint="@color/yello"
+            android:id="@+id/create_new_account"
+            android:layout_marginRight="15dp"
+            android:text="Continue"></Button>
+
+
+    </LinearLayout>
+
+</LinearLayout>
